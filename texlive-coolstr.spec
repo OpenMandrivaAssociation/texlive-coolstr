@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/coolstr
+# catalog-date 2009-09-09 20:34:25 +0200
+# catalog-license lgpl
+# catalog-version 2.2
 Name:		texlive-coolstr
 Version:	2.2
 Release:	1
@@ -46,6 +52,7 @@ if the string contains numeric or integer data.
 #- source
 %doc %{_texmfdistdir}/source/latex/coolstr/coolstr.dtx
 %doc %{_texmfdistdir}/source/latex/coolstr/coolstr.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -56,3 +63,5 @@ if the string contains numeric or integer data.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
