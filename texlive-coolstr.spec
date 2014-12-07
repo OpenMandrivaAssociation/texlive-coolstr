@@ -6,7 +6,7 @@
 # catalog-version 2.2
 Name:		texlive-coolstr
 Version:	2.2
-Release:	8
+Release:	9
 Summary:	String manipulation in LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/coolstr
