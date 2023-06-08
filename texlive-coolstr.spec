@@ -1,6 +1,6 @@
 Name:		texlive-coolstr
-Version:	15878
-Release:	2
+Version:	67015
+Release:	1
 Summary:	String manipulation in LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/coolstr
