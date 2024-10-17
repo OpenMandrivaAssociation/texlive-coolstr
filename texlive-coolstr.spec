@@ -3,7 +3,7 @@ Version:	67015
 Release:	1
 Summary:	String manipulation in LaTeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/coolstr
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/coolstr
 License:	LGPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/coolstr.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/coolstr.doc.r%{version}.tar.xz
